@@ -56,6 +56,7 @@ public class Climbing_Stairs {
 //		else
 //			return climbStairs(n-1)+climbStairs(n-2);
 //}
+	
 	//method 2nd
 	public static int  climbStairs(int n) {
 		if(n<=0)
