@@ -13,11 +13,32 @@ public class AddDigits {
 	 * loop/recursion in O(1) runtime?
 	 */
 
-	
+//	int sayi ;
+//	String s1;
+//	String s2;
+//	AddDigits asd;
+//	AddDigits(int x){
+//		this.sayi=x;
+//	}
+//	
+//	
+//	
+//
+//	public AddDigits() {
+//		super();
+//	}
+
+
+
 
 	public static void main(String[] args) {
+		//int sayi=7;
+//		AddDigits add = new AddDigits();
+//		System.out.println(add.s1.hash);
 		
-		System.out.println(addDigits(38));
+		
+		
+	//	System.out.println(addDigits(38));
 
 	}
 
