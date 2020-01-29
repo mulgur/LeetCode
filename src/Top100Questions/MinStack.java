@@ -28,36 +28,68 @@ minStack.getMin();   --> Returns -2.
 	int min = Integer.MAX_VALUE;
 	Stack<Integer> stack = new Stack<>();
 	
-    public MinStack() {
-    
-        
-    }
-    
-    public void push(int x) {
-    	if(x<min) {
-    		stack.push(min);
-    		min = x;
-    	}
-    	stack.push(x);
-        
-    }
-    
-    public void pop() {
-    	if(stack.pop()==min) {
-    		min = stack.pop();
-    	}
-        
-    }
-    
-    public int top() {
-    	return stack.peek();
-        
-    }
-    
-    public int getMin() {
-    	return min;
-        
-    }
+	public MinStack() {
+		
+	}
+
+private int top() {
+	return stack.peek();
+	
+}
+
+private void pop() {
+	if(stack.pop()==min) {
+		min = stack.pop();
+	}
+	
+}
+private int getMin() {
+	return min;
+	
+}
+
+private void push(int i) {
+	if(i<= min) {
+		stack.push(min);
+		min = i;
+	}
+	stack.push(i);
+	
+}
+	
+//	int min = Integer.MAX_VALUE;
+//	Stack<Integer> stack = new Stack<>();
+//	
+//    public MinStack() {
+//    
+//        
+//    }
+//    
+//    public void push(int x) {
+//    	if(x<min) {
+//    		stack.push(min);
+//    		min = x;
+//    	}
+//    	stack.push(x);
+//        
+//    }
+//    
+//    public void pop() {
+//    	if(stack.pop()==min) {
+//    		min = stack.pop();
+//    	}
+//        
+//    }
+//    
+//    public int top() {
+//    	return stack.peek();
+//        
+//    }
+//    
+//    public int getMin() {
+//    	return min;
+//        
+//    }
 
 
 /**
@@ -80,5 +112,22 @@ minStack.getMin();   --> Returns -2.
 		minStack.getMin();   
 
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }

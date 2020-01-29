@@ -50,7 +50,7 @@ public class Valid_Parentheses {
 				return false;
 			}
 		}
-		return true;
+		return stack.isEmpty();
 	}
 
 	public static void main(String[] args) {
